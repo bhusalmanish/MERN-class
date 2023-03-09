@@ -1,0 +1,76 @@
+.Header {
+    top: 0px;
+    padding-top: 10px;
+    position: relative;
+    height: 60px;
+    width: 100%;
+    /* background-color: #ffffff; */
+    justify-items: center;
+    background-color: aquamarine;
+}
+
+.LINK {
+    justify-content: space-between;
+}
+
+
+/* footer */
+.Footer {
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    bottom: 0px;
+    height: 200px;
+}
+
+.Footer h6 {
+    color: rgb(156, 156, 156);
+}
+
+.Icon {
+    padding: 5px;
+    height: 40px;
+    width: 40px;
+}
+
+/* hero Section */
+
+.HeroSection {
+    padding-top: 200px;
+    /* justify-items: center;
+    justify-content: center; */
+    height: 400px;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.HeroCard {
+    padding-top: 50px;
+    height: 400px;
+    background-color: rgb(231, 231, 237);
+}
+
+/*  text bold componet */
+.HeadText {
+    color: blue;
+}
+
+HeroCardTop {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.Blog {
+
+    height: 600px;
+}
+
+.About {
+    height: 600px;
+}
+
+.TodoList {
+    text-align: center;
+}
