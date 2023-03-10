@@ -5,13 +5,11 @@ import Button from "react-bootstrap/Button";
 // import Row from 'react-bootstrap/Row';
 // import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-
 // import CardItem from "../components/CardItem";
 export default function Todo() {
   const [todo, setTodo] = useState([]);
   const totalItem = 10;
     let [page ,setPage] = useState(1);
-    const  [BtnColor, setBtnColor] = useState('success');
 
 
   useEffect(() => {
@@ -34,8 +32,7 @@ export default function Todo() {
         <Card.Text>
         {todo.title}
         </Card.Text>
-        {/* {todo.completed === 'false' ? setBtnColor("danger"): setBtnColor("success")} */}        
-        <Button variant={BtnColor}> learn more...</Button>
+        <Button variant={todo.completed === true ? "danger": "success"} > learn more...</Button>
       </Card.Body>
     </Card>
     </div>)

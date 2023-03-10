@@ -13,11 +13,14 @@ import Home from './Pages/Home';
 import Todo from './Pages/Todo';
 import Blog from './Pages/Blog';
 import About from './Pages/About';
+import ReduxToolkit from './Pages/ReduxToolkit';
+
 function App() {
   return (
     <>
       <MainHeader />
       <Routes>
+        <Route path="/ReduxToolkit"  element={<ReduxToolkit/>}/>
         <Route path="/" element={<Home />} />
         <Route path="/Blog" element={<Blog />} />
         <Route path="/About" element={<About />} />
@@ -45,6 +48,8 @@ const MainHeader = () => {
             <Link to="/"> Home</Link>
             <Link to="/Todo"> Todo </Link>
             <Link to="/Blog"> Blog </Link>
+            <Link to="/ReduxToolkit"> ReduxToolkit </Link>
+
 
             <Link to="/About"> About </Link> </Col>
           <Col>  Login <Button> Join Us</Button> </Col>
