@@ -4,7 +4,13 @@ const counterSlice = createSlice({
   initialState: {
     value: 0
   },
+
+  // name : "UserName",
+  // inititalState:{
+  //   value : "Manish"
+  // },
   reducers: {
+
     increment: (state) => {
       state.value++;
     },
@@ -13,8 +19,12 @@ const counterSlice = createSlice({
     },
     setZero: (state) =>{
         state.value =0;
+    },
+
+    SetName : (state)=>{
+      state.value= "Manish Bhusal";
     }
   }
-});
-export const { increment, decrement, setZero } = counterSlice.actions;
+},);
+export const { increment, decrement, setZero,setName } = counterSlice.actions;
 export default counterSlice.reducer;

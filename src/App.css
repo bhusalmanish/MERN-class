@@ -8,12 +8,10 @@
     justify-items: center;
     background-color: aquamarine;
 }
-
-.LINK {
+Link {
     justify-content: space-between;
+    padding-right: 10px;
 }
-
-
 /* footer */
 .Footer {
     padding: 10px;
@@ -22,11 +20,9 @@
     bottom: 0px;
     height: 200px;
 }
-
 .Footer h6 {
     color: rgb(156, 156, 156);
 }
-
 .Icon {
     padding: 5px;
     height: 40px;
@@ -43,7 +39,6 @@
     width: 100%;
     background-color: aquamarine;
 }
-
 .HeroCard {
     padding-top: 50px;
     height: 400px;
@@ -61,12 +56,10 @@ HeroCardTop {
     text-align: center;
 }
 
-
 .Blog {
 
     height: 600px;
 }
-
 .About {
     height: 600px;
 }

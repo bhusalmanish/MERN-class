@@ -13,10 +13,15 @@ export default function Todo() {
 
 
   useEffect(() => {
+    
+  //   fetch("http://example.com/movies.json")
+  // .then((response) => response.json())
+  // .then((data) => console.log(data));
+
     axios.get(`https://jsonplaceholder.typicode.com/todos`).then((success) => {
       setTodo(success.data);
     }).catch((e) => { console.log(e); });
-  }, []);
+  },[]);
     const  changePageN0 =()=>{ setPage(page+1)};
     const prePage = ()=>{ setPage( page >1 ? page-1: page=1)};
   return (
